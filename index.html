@@ -1,0 +1,43 @@
+#input value will tell when 1, 5 and 9 seconds have passed
+
+//First create an input tag
+
+<input type="text" id="show" />
+
+
+//create a function
+
+
+<script>
+
+var x = document.getElementById("show");
+
+function myFunction(){
+         setTimeout(function(){
+                x.value="1 second";      
+},1000);
+
+         setTimeout(function(){
+                x.value="5 seconds";
+},5000);
+
+         setTimeout(function(){
+                x.value="9 seconds";
+},9000);
+}
+
+
+</script>
+
+
+
+
+
+//create a button to call the function
+
+
+<button type="button" onclick="myFunction()">Check now</button>
+
+
+
+//Thank you for reading the post. Have a great day!
